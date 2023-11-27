@@ -1,0 +1,212 @@
+a.nav-skip-to-main-content{
+    border: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: absolute;
+    color: #fff;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: center;
+    background: #3484fa;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    cursor: pointer;
+    height: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+a.nav-skip-to-main-content:focus {
+    border: 1px solid #3484fa;
+    height: 54px;
+    padding: 8px 8px
+}
+
+.nav-skip-to-main-content>.nav-skip-to-main-content__content {
+    display: none
+}
+
+.nav-skip-to-main-content:focus>.nav-skip-to-main-content__content {
+    display: block;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 4px
+}
+
+.payments-large {
+    background: url(https://http2.mlstatic.com/secure/payment-logos/v2/payment-logos-mlb-large_v_641c4a6515.png) no-repeat;
+}
+
+._boleto-large,
+._bolbradesco-large {
+    width: 48px;
+    height: 30px;
+    background-position: left 0;
+}
+
+._account_money-large {
+    width: 44px;
+    height: 31px;
+    background-position: left -32px;
+}
+
+._giftcard-large {
+    width: 100px;
+    height: 26px;
+    background-position: left -65px;
+}
+
+._itau-large {
+    width: 45px;
+    height: 27px;
+    background-position: left -93px;
+}
+
+._consumer_credits-large {
+    width: 101px;
+    height: 27px;
+    background-position: left -122px;
+}
+
+._elo-large {
+    width: 47px;
+    height: 28px;
+    background-position: left -151px;
+}
+
+._diners-large {
+    width: 116px;
+    height: 30px;
+    background-position: left -181px;
+}
+
+._amex-large {
+    width: 30px;
+    height: 30px;
+    background-position: left -213px;
+}
+
+._melicard-large {
+    width: 40px;
+    height: 28px;
+    background-position: left -245px;
+}
+
+._pix-large {
+    width: 87px;
+    height: 30px;
+    background-position: left -275px;
+}
+
+._master-large {
+    width: 39px;
+    height: 30px;
+    background-position: left -307px;
+}
+
+._debmaster-large {
+    width: 62px;
+    height: 30px;
+    background-position: left -339px;
+}
+
+._hipercard-large {
+    width: 65px;
+    height: 28px;
+    background-position: left -371px;
+}
+
+._visa-large {
+    width: 93px;
+    height: 30px;
+    background-position: left -401px;
+}
+
+._debvisa-large {
+    width: 96px;
+    height: 96px;
+    background-position: left -433px;
+}
+
+._pec-large {
+    width: 85px;
+    height: 26px;
+    background-position: left -531px;
+}
+
+._paypal-large {
+    width: 22px;
+    height: 26px;
+    background-position: left -559px;
+}
+
+._debelo-large {
+    width: 92px;
+    height: 21px;
+    background-position: left -587px;
+}
+
+._mp_black-large {
+    width: 96px;
+    height: 70px;
+    background-position: left -610px;
+}
+
+._mp_black_credit-large {
+    width: 96px;
+    height: 96px;
+    background-position: left -682px;
+}
+
+._mp_black_debit-large {
+    width: 96px;
+    height: 96px;
+    background-position: left -780px;
+}
+
+*:focus {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px #2968C8, 0 0 0 5px rgba(65, 137, 230, 0.3);
+    outline: none;
+}
+
+*:focus-visible {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px #2968C8, 0 0 0 5px rgba(65, 137, 230, 0.3);
+    outline: none;
+}
+
+*:focus:not(:focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+
+.section-header h2 {
+    color: #666;
+}
+
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #ebebeb;
+    font-family: Arial,Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,sans-serif;
+}
+  
+.home .row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-basis: 100%;
+    flex-basis: 100%;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.home .row {
+    position: relative;
+}
+
+section>.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 40px 0;
+}

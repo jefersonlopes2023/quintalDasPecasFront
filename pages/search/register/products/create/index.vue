@@ -1,0 +1,3 @@
+<template>
+    <FormProducts></FormProducts>
+</template>

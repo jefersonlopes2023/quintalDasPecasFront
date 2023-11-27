@@ -1,0 +1,3 @@
+<template>
+    <TermAndConditionsPage />
+</template>

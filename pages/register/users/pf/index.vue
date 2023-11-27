@@ -1,0 +1,3 @@
+<template>
+  <FormRegisterPf></FormRegisterPf>
+</template>

@@ -1,0 +1,530 @@
+/* Estilos do header */
+.header {
+    background-color: yellow; /* Define o fundo amarelo */
+    position: fixed; /* Torna o header fixo na parte superior */
+    top: 0; /* Posiciona o header no topo */
+    left: 0;
+    width: 100%;
+    z-index: 100; /* Garante que o header esteja acima do conteúdo principal */
+  }
+  
+  /* Estilo para o link à esquerda */
+  .link-esquerda {
+    margin-right: auto; /* Empurra o link para a esquerda, alinhando-o à esquerda da Toolbar */
+    padding: 1rem; /* Adicione padding para melhorar o espaçamento do link */
+    text-decoration: none; /* Remova a decoração de link padrão */
+    color: #000; /* Defina a cor do texto */
+  }
+  
+  .p-inputtext-search
+  {
+    border-radius: 0px;
+    width: 43rem;
+  }
+  
+  .pp-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly!important;
+      flex-wrap: wrap;
+      background-color: #fff159;
+      border-radius: 0px;
+      border-color: #fff159;
+  }
+  
+  .btn-recover-password{
+    width: 100%;
+  }
+
+  .btn-register-user{
+    width: 100%;
+  }
+
+  .btn-right{
+    float: right;
+   }
+
+  .btn-width-defult{
+    width: 100%;
+  }
+
+  .p-password,.p-password-input{
+    width: 100%;
+  }
+
+  /* .pp-menubar {
+    padding: 0.5rem 1rem;
+    background: #fff159;
+    color: #000;
+    border: 0 none;
+    border-radius: 4px;
+} */
+
+/* .p-menubar .p-menuitem:not(.p-highlight):not(.p-disabled).p-focus > .p-menuitem-content {
+  color: #212529;
+  background: #fff159;
+}
+
+.p-menubar .p-menuitem.p-highlight > .p-menuitem-content {
+  color: #212529;
+  background: #fff159;
+} */
+
+/* .p-menubar .p-menuitem.p-highlight.p-focus > .p-menuitem-content {
+  background: #fff159;
+}
+
+.p-menubar .p-menuitem:not(.p-highlight):not(.p-disabled).p-focus > .p-menuitem-content {
+  color: #212529;
+  background: #fff159;
+} */
+
+.link-entre{
+  color : #00000080;
+}
+
+.link-entre:hover{
+
+
+
+  color : #212529;
+}
+
+.panel{
+  border: 1px solid #ced4da;
+  border-radius: 15px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fff;
+}
+
+.box-button{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0%;
+}
+
+body{
+  background-color: #ededed!important;
+}
+
+/* .p-inputtext, form-control{
+  min-height: 48px;
+  font-size: 11px;
+}  */
+/* 
+.form-label{
+  font-size: 16px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+} */
+
+.p-dropdown{
+  width: 100%;
+  min-height: 48px;
+}
+
+.accordion-custom{
+  width: 100%;  
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+section>.container-recoverpassword {
+  padding-top: 10%;
+}
+
+.label-sm {
+  font-size: 12px;
+}
+
+.label-md {
+  font-size: 16px;
+}
+
+.label-lg{
+  font-size: 20px;
+}
+
+.teste{
+  size: 30px;
+}
+
+.p-password-input{
+  font-size: 16px;
+}
+
+/* .p-inputtext .p-component{
+  font-size: 16px;
+} */
+
+
+.p-inputmask{
+  font-size: 16px;
+}
+
+.p-inputmask.p-inputmask-lg {
+  font-size: 1.25rem;
+  padding: 0.9375rem 0.9375rem;
+}
+
+.form-label {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.p-accordion-header-text{
+  font-size: 20px;
+}
+
+.btn-type-register{
+  width: 100%;
+}
+.TestDeleteButton{
+  padding: 5px;
+}
+.ButtonBottom{
+  padding-bottom: 15px;
+}
+
+/* .p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover {
+  color: #495057;
+ background: #fff159;
+} */
+
+.p-input-icon-left-custom, .p-input-icon-right-custom {
+  position: relative;
+  display: inline-block;
+  width: 80%;
+}
+
+.input-cutom-size{
+  width: 252%;
+}
+
+.input-text-main-features{
+  width: 100%;
+}
+
+.p-listbox-item{
+  font-size: 18px;
+}
+
+.icon-tooltip{
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.icon-required{
+  vertical-align: top;
+  color: #ef4444;
+  font-size: 12px;
+}
+
+.p-dropdown-label, p-inputtext{
+  font-size: 18px;
+}
+
+.p-dropdown-item, p-highlight{
+  font-size: 18px;
+}
+
+.p-radiobutton .p-radiobutton-box {
+  border: 2px solid #ced4da;
+  background: #ffffff;
+  width: 25px;
+  height: 25px;
+  color: #495057;
+  border-radius: 50%;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.row-border{
+  border-top: 1px solid #ededed;
+}
+
+.text-md{
+  font-size: 16px;
+}
+
+
+.image-ajust{
+  padding-right: 10px;
+}
+
+.box-image{
+  padding: 12px 32px;
+}
+
+.syi-header-inside-group h2 {
+  color: rgba(0,0,0,.8);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-pi-angle-right{
+  font-size: 16px;
+  justify-content: center;
+}
+
+.fs-26 {
+  font-size: 26px;
+}
+
+.icon-color{
+  color: #3483fa
+}
+
+.input-text-main-features:enabled:hover{
+  border-color: #ced4da;
+}
+
+.no-border{
+  border-color: #ced4da;
+  background-color: transparent;
+}
+
+.no-border-left{
+  border-left: 0px;
+}
+
+.no-border-right{
+  border-right: 0px;
+}
+
+.btn-search-custom{
+  background-color: #4189e626!important;
+}
+
+.img-size{
+  width: 150px;
+  height: 150px;
+}
+
+/* 
+.p-carousel[pv_id_1] .p-carousel-item {
+  flex: 0 0 0% !important;
+} */
+
+.price-size{
+  font-size: 24px;
+}
+
+.textteste2{
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  text-overflow: ellipsis;
+  padding: 5px;
+}
+
+.textteste{
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  margin: 0;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  text-overflow: ellipsis;
+  line-height: 15px;
+}
+
+.title-size{
+  font-size: 15px;
+  padding: 5px;
+}
+
+.carousel-color{
+  background-color: #ffffff;
+}
+
+.mm-3 {
+  margin: 10px !important;
+}
+
+/* body {
+  background-color: #fff!important;
+} */
+
+.bg-custom{
+  background-color: #fff;
+}
+
+.cents{
+  font-size: 15px;
+  margin-bottom: 5px;
+  
+}
+
+.align-cents{
+  align-self: flex-start;
+}
+
+.discount{
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+/* parcelas */
+.installments{
+  font-size: 14px;
+  color: #00a650;
+  padding-left: 5px;
+}
+
+.pix{
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #3483fa;
+  background-color: #3483fa33;
+ 
+}
+
+.titulo{
+  font-size: 30px;
+  padding-left: 45px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.min-titulo{
+  font-size: 14px;
+  color: #3483fa;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.p-breadcrumb {
+  background: none;
+  border: 0px;
+  border-radius: 6px;
+  padding: 1rem;
+  padding-left: 0px;
+}
+
+.p-breadcrumb .p-breadcrumb-list li .p-menuitem-link .p-menuitem-text {
+  color: #3483fa;
+  font-size: 14px;
+}
+
+.p-menubar{
+  display: flex;
+  align-items: center;
+  z-index: 500;
+  position: sticky;  
+}
+
+.originalPriceCents{
+  font-size: 10px;
+  margin-top: 1px;
+}
+
+.originalPrice{
+  font-size: 16px;
+}
+
+.originalCustom{
+ text-decoration: line-through;
+}
+
+.bla{
+  margin-left: 90px;
+}
+
+.adverts{
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.iconSize{
+  font-size: large;
+}
+
+.termAndCondition{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pharagraphTerm{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+}
+
+.titleTerm{
+  padding-top: 12px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.buttonTerm{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.searchProducts{
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.searchButton{
+  padding-top: 50px;
+}
+
+.rating{
+  padding-top: 5px;
+}
+
+.text-capitalize{
+  text-transform: capitalize;
+}
+
+.ulBox{
+  padding-left: 0px!important;
+}
+
+.colorBox{
+  width: 50px;
+  height: 50px;
+}
+
+.bannerTop{
+  margin-top: 0%!important;
+}
+
+.viewGalleria{
+  margin-top: 0%!important;
+  padding-top: 0%!important;
+}
+
+.p-inputnumber-input{
+  font-size: 18px;
+}
+
+.p-progressbar .p-progressbar-value {
+  border: 0 none;
+  margin: 0;
+  background: #198754;
+}
+
+.p-inputtext.p-inputtext-lg {
+  font-size: 1.2rem;
+  padding: 0.9375rem 0.9375rem;
+  padding-top: 0.9375rem;
+  padding-right: 0.9375rem;
+  padding-bottom: 0.9375rem;
+  padding-left: 0.9375rem;
+}
